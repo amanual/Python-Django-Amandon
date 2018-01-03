@@ -39,22 +39,6 @@ def amadon(request):
             request.session['count'] += result
             request.session['total'] += request.session['iphone']
 
-       
-        
-
-
-
-
-        # request.session['shop'].append(data)
-        # print request.session['shop']
-    #     # request.POST['product_id'] == '1015':
-    #     print request.POST['quantity']
-        # print request.POST['porduct_id']
-        # iphone= int(request.POST['quantity']) * 900
-        # request.POST['product_id']
-        # request.session['shop'].append(data)
-    # else:
-    #     print 'you did not order'
         
         
     return render(request, 'amadon/display.html')
